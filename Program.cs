@@ -8,10 +8,10 @@ int max = number1;
 if (max == number2)
 
 Console.WriteLine( $"Значения равны =  {number1}");
-else
-if ( number2 < max)
-    Console.WriteLine( $"Максимум =  {number1}; Минимум = {number2}");
-        else
-   {
-         Console.WriteLine( $"Максимум =  {number2}; Минимум = {number1}");
-   }
+    else
+    if ( number2 < max)
+            Console.WriteLine( $"Максимум =  {number1}; Минимум = {number2}");
+         else
+     {
+            Console.WriteLine( $"Максимум =  {number2}; Минимум = {number1}");
+     }
