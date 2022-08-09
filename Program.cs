@@ -5,9 +5,13 @@ int number1 = Convert.ToInt32 (Console.ReadLine());
 Console.WriteLine("Введите 2 число:  ");
 int number2 = Convert.ToInt32 (Console.ReadLine());
 int max = number1;
+if (max == number2)
+
+Console.WriteLine( $"Значения равны =  {number1}");
+else
 if ( number2 < max)
-    Console.WriteLine( $"Максимальное значение =  {number1}");
+    Console.WriteLine( $"Максимум =  {number1}; Минимум = {number2}");
         else
    {
-         Console.WriteLine( $"Максимальное значение =  {number2}");
+         Console.WriteLine( $"Максимум =  {number2}; Минимум = {number1}");
    }
