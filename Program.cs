@@ -54,18 +54,21 @@
 Console.WriteLine("Введите натуральное число от 1 до бесконечности:  ");
 int n = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-
+if (n > 1)
+{
 while (count < n  / 2)
 {
-    //if (n % 2 == 0)
-    //{
-        Console.WriteLine($" {(count+1) * 2}");
-   //}
-   // else 
-   // {
-   //     Console.WriteLine($" {(n-1)%2==0}");
-   // }
-    count++;
+           Console.WriteLine($" {(count+1) * 2}");
+             count++;
+}
+if (n<1)
+   {
+    while (count < -n  / 2)
+    {
+        Console.WriteLine($" {count}");
+        count++;
+    }
+   }
 }
 // Дополнительная задача. Напишите программу, которая принимает на вход трёхзначное число 
 // и на выходе показывает последнюю цифру этого числа
