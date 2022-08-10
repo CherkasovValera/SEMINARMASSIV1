@@ -53,18 +53,19 @@
 // задача применима к положительным, целым числам.
 Console.WriteLine("Введите натуральное число от 1 до бесконечности:  ");
 int n = Convert.ToInt32(Console.ReadLine());
-int count =  n;
-while ( n>1)
+int count = 0;
+
+while (count < n  / 2)
 {
-if (n % 2 == 0)
-{
-  Console.WriteLine($" {n}");
-}
-    //else 
+    //if (n % 2 == 0)
     //{
-    //    Console.WriteLine($" {(n-1)%2==0}");
-    //}
-    n= n-1;
+        Console.WriteLine($" {(count+1) * 2}");
+   //}
+   // else 
+   // {
+   //     Console.WriteLine($" {(n-1)%2==0}");
+   // }
+    count++;
 }
 // Дополнительная задача. Напишите программу, которая принимает на вход трёхзначное число 
 // и на выходе показывает последнюю цифру этого числа
