@@ -35,16 +35,57 @@
 //}
 
 
-//Напишите программу, которая на вход принимает число и выдаёт, 
+//Задача №3 Напишите программу, которая на вход принимает число и выдаёт, 
 //является ли число чётным (делится ли оно на два без остатка).
 
-Console.WriteLine("Введите число:  ");
+//Console.WriteLine("Введите число:  ");
+//int number = Convert.ToInt32(Console.ReadLine());
+
+//if (number % 2 == 0)
+
+//    Console.WriteLine($"{number} Число четное");
+//else
+//{
+//    Console.WriteLine($"{number} Число нечетное");
+//}
+
+//Задача №4 Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N
+// задача применима к положительным, целым числам.
+//Console.WriteLine("Введите натуральное число от 1 до бесконечности:  ");
+//int n = Convert.ToInt32(Console.ReadLine());
+//int count =  0;
+//while ( count<n);
+//if (n % 2 == 0)
+//  Console.WriteLine($" = {n}");
+//count++;
+//    else 
+//    {
+//        (n > count);
+
+//    }
+
+// Напишите программу, которая принимает на вход трёхзначное число 
+// и на выходе показывает последнюю цифру этого числа
+
+Console.WriteLine("Введите трехзначное число:  ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number % 2 == 0)
+if (number > 99 && number < 1000)
 
-    Console.WriteLine($"{number} Число четное");
-else
+ Console.WriteLine ( $" {number%10}");
+   
+//if (number > 99 && number < 1000);
+    else 
 {
-    Console.WriteLine($"{number} Число нечетное");
+    Console.WriteLine("Введите трехзначное число:  ");
 }
+ //if
+  //  else
+    //{
+      
+      //       Console.WriteLine($"{number} Число четное");
+    // }
+    //else
+//{
+  //  Console.WriteLine($"{number} Число нечетное");
+//}
