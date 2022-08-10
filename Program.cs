@@ -82,12 +82,12 @@
 //Напишите программу, которая на вход принимает одно число (N),
 // а на выходе показывает все целые числа в промежутке от -N до N.
 
-Console.WriteLine("Введите натуральное пооложительное число от 1 и далее:  ");
-int n = Convert.ToInt32(Console.ReadLine());
-int count = -n;
+//Console.WriteLine("Введите натуральное пооложительное число от 1 и далее:  ");
+//int n = Convert.ToInt32(Console.ReadLine());
+//int count = -n;
 //if (n < 1)
-    while (count < n+1 )
-    {
-       Console.Write($" {count }");
-        count++;
-    }
+//while (count < n + 1)
+//{
+//    Console.Write($" {count}");
+//    count++;
+//}
