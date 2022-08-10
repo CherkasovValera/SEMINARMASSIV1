@@ -51,31 +51,32 @@
 
 //Задача №4 Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N
 // задача применима к положительным, целым числам.
-//Console.WriteLine("Введите натуральное число от 1 до бесконечности:  ");
-//int n = Convert.ToInt32(Console.ReadLine());
-//int count =  0;
-//while ( count<n);
-//if (n % 2 == 0)
-//  Console.WriteLine($" = {n}");
-//count++;
-//    else 
-//    {
-//        (n > count);
-
-//    }
-
-// Напишите программу, которая принимает на вход трёхзначное число 
+Console.WriteLine("Введите натуральное число от 1 до бесконечности:  ");
+int n = Convert.ToInt32(Console.ReadLine());
+int count =  n;
+while ( n>1)
+{
+if (n % 2 == 0)
+{
+  Console.WriteLine($" {n}");
+}
+    //else 
+    //{
+    //    Console.WriteLine($" {(n-1)%2==0}");
+    //}
+    n= n-1;
+}
+// Дополнительная задача. Напишите программу, которая принимает на вход трёхзначное число 
 // и на выходе показывает последнюю цифру этого числа
 
-Console.WriteLine("Введите трехзначное число:  ");
-int number = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Введите трехзначное число:  ");
+//int number = Convert.ToInt32(Console.ReadLine());
 
-if (number > 99 && number < 1000)
+//if (number > 99 && number < 1000)
 
- Console.WriteLine ( $" {number%10}");
-   
-    else 
-{
-    Console.WriteLine("Вводите трехзначное число!");
-}
- 
+//   Console.WriteLine($" {number % 10}");
+
+//else
+//{
+//    Console.WriteLine("Вводите трехзначное число!");
+//}
