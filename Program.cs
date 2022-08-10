@@ -74,18 +74,8 @@ if (number > 99 && number < 1000)
 
  Console.WriteLine ( $" {number%10}");
    
-//if (number > 99 && number < 1000);
     else 
 {
-    Console.WriteLine("Введите трехзначное число:  ");
+    Console.WriteLine("Вводите трехзначное число!");
 }
- //if
-  //  else
-    //{
-      
-      //       Console.WriteLine($"{number} Число четное");
-    // }
-    //else
-//{
-  //  Console.WriteLine($"{number} Число нечетное");
-//}
+ 
